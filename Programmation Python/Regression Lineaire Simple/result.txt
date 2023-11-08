@@ -1,0 +1,94 @@
+##########################################################################################################
+
+Implémentation avec les deux stagiaires
+
+Xi	     3	     4	     6	     7	     9	    10	     9	    11	    12	    13	    15	     4	
+Yi	     8	     9	    10	    13	    15	    14	    13	    16	    13	    19	     6	    19	
+Xi2	     9	    16	    36	    49	    81	   100	    81	   121	   144	   169	   225	    16	
+Yi2	    64	    81	   100	   169	   225	   196	   169	   256	   169	   361	    36	   361	
+Xi*Yi	    24	    36	    60	    91	   135	   140	   117	   176	   156	   247	    90	    76	
+ypi	12.314	12.422	12.638	12.746	12.962	 13.07	12.962	13.177	13.285	13.393	13.609	12.422	
+ei	-4.314	-3.422	-2.638	 0.254	 2.038	  0.93	 0.038	 2.823	-0.285	 5.607	-7.609	 6.578	
+ei2	18.611	 11.71	 6.958	 0.065	 4.155	 0.866	 0.001	 7.967	 0.081	31.435	  57.9	 43.27	
+
+1- Statistiques descriptives :
+	X	  Y
+Moy : 8.583	12.917
+Var : 13.576	15.41
+std : 3.685	3.926
+Cov : 1.465
+Coeff Corr : 0.101
+
+2- Statistiques de regression :
+Coeff determination : 1.026%
+Observation : 12
+IC variance des erreurs du modele : [8.933;56.366]
+Donc 1.026% d'une note de l'Epreuve B est expliqué par une note de l'Epreuve A
+
+3-ANOVA :
+	    ddl	SS	MS	F calcule F Theo
+predict	     1	 1.898	 1.898	 0.104	  4.96		
+erreurs	    10	183.019	18.302	
+total	    11	184.917	
+
+* : le parametre estime est significativement different de zero (risque=5%)
+
+4- Estimation des parametres du modele :
+	 Coeff	 std	 t-Stat	t-theo	 BInf	 BSup
+Const	 11.99	 3.131	  3.83	 2.228	 5.015	18.966	*	
+X	 0.108	 0.335	 0.322	 2.228	-0.639	 0.855		
+
+* : le parametre estime est significativement different de zero (risque=5%)
+
+5-Conclusion :
+On a 0.322<=2.228. Donc avec une confiance de 95%,
+nous pouvons affirmer que les notes de l'Epreuve A n'explique pas lineairement celle de l'Epreuve B
+Ce resultat est aussi observe avec la valeur de F-Stat < F-Theo (0.104<4.96)
+
+##########################################################################################################
+
+Implémentation sans les deux stagiaires
+
+Xi	     3	     4	     6	     7	     9	    10	     9	    11	    12	    13	
+Yi	     8	     9	    10	    13	    15	    14	    13	    16	    13	    19	
+Xi2	     9	    16	    36	    49	    81	   100	    81	   121	   144	   169	
+Yi2	    64	    81	   100	   169	   225	   196	   169	   256	   169	   361	
+Xi*Yi	    24	    36	    60	    91	   135	   140	   117	   176	   156	   247	
+ypi	 8.159	 9.056	10.849	11.745	13.538	14.434	13.538	15.331	16.227	17.124	
+ei	-0.159	-0.056	-0.849	 1.255	 1.462	-0.434	-0.538	 0.669	-3.227	 1.876	
+ei2	 0.025	 0.003	  0.72	 1.575	 2.138	 0.189	 0.289	 0.448	10.414	 3.521	
+
+1- Statistiques descriptives :
+	X	  Y
+Moy : 8.4	13.0
+Var : 10.04	10.0
+std : 3.169	3.162
+Cov : 9.0
+Coeff Corr : 0.898
+
+2- Statistiques de regression :
+Coeff determination : 80.677%
+Observation : 10
+IC variance des erreurs du modele : [1.102;8.865]
+Donc 80.677% d'une note de l'Epreuve B est expliqué par une note de l'Epreuve A
+
+3-ANOVA :
+	    ddl	SS	MS	F calcule F Theo
+predict	     1	80.677	80.677	33.402	  5.32	*	
+erreurs	     8	19.323	 2.415	
+total	     9	 100.0	
+
+* : le parametre estime est significativement different de zero (risque=5%)
+
+4- Estimation des parametres du modele :
+	 Coeff	 std	 t-Stat	t-theo	 BInf	 BSup
+Const	  5.47	 1.392	 3.928	 2.306	 2.259	 8.681	*	
+X	 0.896	 0.155	 5.779	 2.306	 0.539	 1.254	*	
+
+* : le parametre estime est significativement different de zero (risque=5%)
+
+5-Conclusion :
+On a 5.779>2.306. Donc avec un risque de 5% de se tromper,
+nous pouvons affirmer que les notes de l'Epreuve A explique lineairement celle de l'Epreuve B
+Ce resultat est aussi observe avec la valeur de F-Stat > F-Theo (33.402>5.32)
+

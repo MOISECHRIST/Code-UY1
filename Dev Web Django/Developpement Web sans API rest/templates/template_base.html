@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block titre %} {% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'css/file_style.css' %}">
+</head>
+<body>
+    <div id="corps">
+            <nav id="list">
+            <ul>
+                <li><a href="{% url 'accueil' %}">accueil</a></li>
+                {% if not user.is_authenticated %}
+                <li><a href="{% url 'login' %}">connexion</a></li>
+                <li><a href="{% url 'creer_user' %}">creer compte</a></li>
+                {% endif %}
+                {% if user.is_authenticated %}
+                <li><a href="{% url 'predict' user.username %}">food app</a></li>
+                <li><a href="{% url 'logout' %}">deconnexion</a></li>
+                {% endif %}
+            </ul>
+        </nav>
+        <main>
+        {% if user.is_authenticated %}
+        <h1>AGENDA NUTRITIONNEL DE <a href="{% url 'modif_user' %}" class="lien_user">{{user}}</a></h1><br>
+        {% endif %}
+        {% block contenu %} {% endblock %}
+        <p>
+            <marquee behavior="alternate">
+                <li><img src="{% static 'image/Achard de légumes au curcuma et vinaigre.jpg' %}"></li>
+                <li><img src="{% static 'image/feuille de capucine farci au curcuma.jpg' %}"></li>
+                <li><img src="{% static 'image/Gâteau aux cheveux d\'ange.jpg' %}"></li>
+                <li><img src="{% static 'image/Godrogodro.jpg' %}"></li>
+                <li><img src="{% static 'image/kimo-ragout malgache.jpg' %}"></li>
+                <li><img src="{% static 'image/kimo-boeuf malgache.jpg' %}"></li>
+                <li><img src="{% static 'image/langue-de-veau-sauce-tomate-epicee-comme-a-madagascar.jpg' %}"></li>
+                <li><img src="{% static 'image/Lomo-au-piment-dEspelette.jpg' %}"></li>
+                <li><img src="{% static 'image/Makatsia coco.jpeg' %}"></li>
+                <li><img src="{% static 'image/porc braisé malgache.jpg' %}"></li>
+                <li><img src="{% static 'image/poulet vegan sauce au petit pois.jpg' %}"></li>
+                <li><img src="{% static 'image/romazava à la viande et au chou chinois.jpg' %}"></li>
+                <li><img src="{% static 'image/salade de mangue.png' %}"></li>
+                <li><img src="{% static 'image/Tartare au tamarin et au poivre voatsiperifery.jpg' %}"></li>
+            </marquee>
+        </p>
+        </main>
+        <footer>
+            <section id="Contact" class="Contact">
+                <h2>Contact</h2>
+                <address>
+                    Nom : MEKA<br>
+                    Prenom : Moïse Christian Junior<br>
+                    Matricule : 21T2561<br>
+                </address>
+            </section>
+        </footer>
+    </div>
+</body>
+</html>

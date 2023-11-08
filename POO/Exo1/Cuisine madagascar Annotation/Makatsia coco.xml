@@ -1,0 +1,50 @@
+<annotation>
+	<folder>Cuisine madagascar</folder>
+	<filename>Makatsia coco.jpeg</filename>
+	<path>C:\Users\Huawei\Downloads\Cuisine madagascar\Makatsia coco.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>848</width>
+		<height>565</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Makatsia coco</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>58</xmin>
+			<ymin>159</ymin>
+			<xmax>500</xmax>
+			<ymax>508</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Makatsia coco</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>344</xmin>
+			<ymin>189</ymin>
+			<xmax>802</xmax>
+			<ymax>556</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Makatsia coco</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>122</xmin>
+			<ymin>99</ymin>
+			<xmax>533</xmax>
+			<ymax>262</ymax>
+		</bndbox>
+	</object>
+</annotation>

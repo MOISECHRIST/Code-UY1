@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1651739961 source:/home/meka/Bureau/INFO L1 2021-2022/NEW/Program INF132/EXO 2 CHARGE TD/main.c
+	<stdio.h>
+	<stdlib.h>
+	"fonctions.h"
+
+1651740138 /home/meka/Bureau/INFO L1 2021-2022/NEW/Program INF132/EXO 2 CHARGE TD/fonctions.h
+
+1651739213 source:/home/meka/Bureau/INFO L1 2021-2022/NEW/Program INF132/EXO 2 CHARGE TD/fonctions.c
+	<stdio.h>
+	<stdlib.h>
+	"fonctions.h"
+

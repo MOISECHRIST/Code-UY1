@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1654441141 source:/home/meka/Bureau/INFO L1 2021-2022/NEW/INF112/EXERCICE 4/Implementation en C/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"header.h"
+
+1654440794 /home/meka/Bureau/INFO L1 2021-2022/NEW/INF112/EXERCICE 4/Implementation en C/header.h
+
+1654440983 source:/home/meka/Bureau/INFO L1 2021-2022/NEW/INF112/EXERCICE 4/Implementation en C/header.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"header.h"
+

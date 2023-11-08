@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1655354733 source:/home/meka/Bureau/INFO L1 2021-2022/NEW/INF112/Tables de hacjages/Exercice 3/Implementation en C/exo3/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"header.h"
+
+1655354429 /home/meka/Bureau/INFO L1 2021-2022/NEW/INF112/Tables de hacjages/Exercice 3/Implementation en C/exo3/header.h
+
+1655354764 source:/home/meka/Bureau/INFO L1 2021-2022/NEW/INF112/Tables de hacjages/Exercice 3/Implementation en C/exo3/header.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"header.h"
+

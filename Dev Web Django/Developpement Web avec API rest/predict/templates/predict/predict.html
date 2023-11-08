@@ -1,0 +1,31 @@
+{% extends 'template_base.html' %}
+{% block titre %}food app{% endblock %}
+{% block contenu %}
+    <p>
+        Prédire votre consommation future : 
+    </p>
+    <form method="POST"">
+        {% csrf_token %}
+        <table>
+            <tr>
+                <td>
+                    <label for="day_of_week">Jour de la semaine :</label>
+                    <select id="day_of_week" name="day_of_week">
+                        <option value="">-----</option>
+                        <option value="Lundi">Lundi</option>
+                        <option value="Mardi">Mardi</option>
+                        <option value="Mercredi">Mercredi</option>
+                        <option value="Jeudi">Jeudi</option>
+                        <option value="Vendredi">Vendredi</option>
+                        <option value="Samedi">Samedi</option>
+                        <option value="Dimanche">Dimanche</option>
+                    </select>
+                </td>
+                <td>
+                    <button type="submit">Valider</button>
+                </td>
+            </tr>
+        </Table>
+    </form>
+    <p>{{prediction}}</p>
+{% endblock %}

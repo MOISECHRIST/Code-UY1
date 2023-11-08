@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>60957</id>
+      <name>Poulet à la Vanille et Riz Coco de Madagasca</name>
+      <size>1</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2023-01-01 04:06:50.095744+00:00</created>
+      <updated>2023-01-01 04:08:00.489985+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>0</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>59378</id>
+          <start>0</start>
+          <stop>0</stop>
+          <url>https://app.cvat.ai/api/jobs/59378</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>tchaptche_itiel</username>
+        <email>tchaptche.rudy@facsciences-uy1.cm</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>rice</name>
+          <color>#616ffb</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>meet</name>
+          <color>#ba4d94</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+    </task>
+    <dumped>2023-01-01 04:08:17.321562+00:00</dumped>
+  </meta>
+  <image id="0" name="Poulet à la Vanille et Riz Coco de Madagasca.jpg" width="650" height="488">
+    <box label="rice" occluded="0" source="manual" xtl="402.51" ytl="197.14" xbr="646.51" ybr="388.69" z_order="0">
+    </box>
+    <box label="meet" occluded="0" source="manual" xtl="143.41" ytl="145.48" xbr="397.75" ybr="307.62" z_order="0">
+    </box>
+  </image>
+</annotations>

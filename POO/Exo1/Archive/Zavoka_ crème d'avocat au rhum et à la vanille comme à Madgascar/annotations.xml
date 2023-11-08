@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>60958</id>
+      <name>Zavoka: crème d'avocat au rhum et à la vanille comme à Madgascar</name>
+      <size>1</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2023-01-01 04:16:19.194729+00:00</created>
+      <updated>2023-01-01 04:16:48.197277+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>0</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>59379</id>
+          <start>0</start>
+          <stop>0</stop>
+          <url>https://app.cvat.ai/api/jobs/59379</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>tchaptche_itiel</username>
+        <email>tchaptche.rudy@facsciences-uy1.cm</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>cream</name>
+          <color>#406080</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+    </task>
+    <dumped>2023-01-01 04:17:08.052987+00:00</dumped>
+  </meta>
+  <image id="0" name="Zavoka crème d'avocat au rhum et à la vanille comme à Madgascar.jpg" width="213" height="320">
+    <box label="cream" occluded="0" source="manual" xtl="45.26" ytl="137.09" xbr="185.45" ybr="240.28" z_order="0">
+    </box>
+  </image>
+</annotations>

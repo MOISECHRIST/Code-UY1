@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block titre %} {% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'css/file_style.css' %}">
+</head>
+<body>
+    <div id="corps">
+            <nav id="list">
+            <ul>
+                <li><a href="{% url 'accueil' %}">accueil</a></li>
+                <li><a href="{% url 'predict' user.username %}">food app</a></li>
+                <li><a href="{% url 'logout' %}">deconnexion</a></li>
+            </ul>
+        </nav>
+        <main>
+        {% if user.is_authenticated %}
+        <h1>AGENDA NUTRITIONNEL DE <a href="{% url 'modif_user' %}" class="lien_user">{{user}}</a></h1>
+        {% endif %}
+        {% block contenu %} {% endblock %}
+        </main>
+        <footer>
+            <section id="Contact" class="Contact">
+                <h2>Contact</h2>
+                <address>
+                    Nom : MEKA<br>
+                    Prenom : Moïse Christian Junior<br>
+                    Matricule : 21T2561<br>
+                </address>
+            </section>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<annotation>
+	<folder>Cuisine madagascar</folder>
+	<filename>langue-de-veau-sauce-tomate-epicee-comme-a-madagascar.jpg</filename>
+	<path>C:\Users\Huawei\Downloads\Cuisine madagascar\langue-de-veau-sauce-tomate-epicee-comme-a-madagascar.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>426</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Langue de veau</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3</xmin>
+			<ymin>462</ymin>
+			<xmax>124</xmax>
+			<ymax>560</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Langue de veau</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>169</xmin>
+			<ymin>322</ymin>
+			<xmax>273</xmax>
+			<ymax>414</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Sauce tomate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2</xmin>
+			<ymin>325</ymin>
+			<xmax>324</xmax>
+			<ymax>565</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Riz</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>139</xmin>
+			<ymin>134</ymin>
+			<xmax>365</xmax>
+			<ymax>277</ymax>
+		</bndbox>
+	</object>
+</annotation>

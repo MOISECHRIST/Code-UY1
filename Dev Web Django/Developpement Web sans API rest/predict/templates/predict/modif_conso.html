@@ -1,0 +1,68 @@
+{% extends 'template_base.html' %}
+{% block titre %}food app{% endblock %}
+{% block contenu %}
+    <p>
+        Enregistrement d'une consommation : 
+    </p>
+    <form method="POST"">
+        {% csrf_token %}
+        <table>
+            <tr>
+                <td>
+                    <label for="date">Date :</label>
+                    <input id="date" type="date" name="date" value="{{conso.date}}">
+                </td>
+                <td>
+                    <label for="day_of_week">Jour de la semaine :</label>
+                    <select id="day_of_week" name="day_of_week">
+                        <option value="">-----</option>
+                        <option value="Lundi">Lundi</option>
+                        <option value="Mardi">Mardi</option>
+                        <option value="Mercredi">Mercredi</option>
+                        <option value="Jeudi">Jeudi</option>
+                        <option value="Vendredi">Vendredi</option>
+                        <option value="Samedi">Samedi</option>
+                        <option value="Dimanche">Dimanche</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="food_name">Nourriture :</label>
+                    <select id="food_name" name="food_name">
+                        <option value="">-----</option>
+                        {% for food in foods %}
+                        <option value="{{food.name}}">{{food.name}}</option>
+                        {% endfor %}
+                    </select>
+                </td>
+                <td>
+                    <label for="hpb_name">Problème de santé :</label>
+                    <select id="hpb_name" name="hpb_name">
+                        <option value="">-----</option>
+                        {% for hpb in hpbs %}
+                        <option value="{{hpb.name}}">{{hpb.name}}</option>
+                        {% endfor %}
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="submit">Modifier</button>
+                </td>
+                <td>
+                    <a href="{% url 'visualise' user.username %}"><input type="button" value="Visualiser" class="visualiser"></a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="{% url 'enreg_food' user.username %}"><input type="button" value="Nouvelle nourriture" class="visualiser"></a>
+                </td>
+                <td>
+                    <a href="{% url 'enreg_hpb' user.username %}"><input type="button" value="Nouveau problème" class="visualiser"></a>
+                </td>
+            </tr>
+        </table>
+    </form>
+    
+{% endblock %}

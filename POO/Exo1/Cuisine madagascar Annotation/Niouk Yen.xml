@@ -1,0 +1,62 @@
+<annotation>
+	<folder>Cuisine madagascar</folder>
+	<filename>Niouk Yen.jpg</filename>
+	<path>C:\Users\Huawei\Downloads\Cuisine madagascar\Niouk Yen.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>650</width>
+		<height>488</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Boulettes de chayottes</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>165</xmin>
+			<ymin>43</ymin>
+			<xmax>440</xmax>
+			<ymax>244</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Boulettes de chayottes</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>129</ymin>
+			<xmax>148</xmax>
+			<ymax>389</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>sauce de Nuoc mam</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>70</xmin>
+			<ymin>315</ymin>
+			<xmax>549</xmax>
+			<ymax>488</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Boulettes de chayottes</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>371</xmin>
+			<ymin>1</ymin>
+			<xmax>650</xmax>
+			<ymax>77</ymax>
+		</bndbox>
+	</object>
+</annotation>

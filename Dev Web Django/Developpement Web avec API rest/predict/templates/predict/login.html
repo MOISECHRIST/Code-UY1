@@ -1,0 +1,16 @@
+{% extends 'template_base.html'%}
+{% block title %}login{% endblock %}
+{% block contenu %}
+<h1>Connexion</h1>
+<div class="login_div">
+    <form method="post">
+        {% csrf_token %}
+        <table>
+            <tr><p>Login : <input id="username" type="text" value="" placeholder="Login" name="username" class="login"></p></tr>
+            <tr><p>Mot de Passe : <input id="password" type="password" value="" placeholder="Mode de passe" name="password" class="MdP"></p></tr>
+            <tr><button type="submit" class="valider">Se connecter</button>
+            <a href="{% url 'creer_user' %}"><input type="button" value="Creer un compte" name="CreateUser" class="CreateUser"></a></p></tr>
+        </table>
+    </form>
+</div>
+{% endblock %}

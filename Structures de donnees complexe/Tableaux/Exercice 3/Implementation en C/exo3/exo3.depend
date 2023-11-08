@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1655240517 source:/home/meka/Bureau/INFO L1 2021-2022/NEW/INF112/Tableaux/Exercice 3/Implementation en C/exo3/main.c
+	<stdio.h>
+	<stdlib.h>
+	"header.h"
+
+1655242122 /home/meka/Bureau/INFO L1 2021-2022/NEW/INF112/Tableaux/Exercice 3/Implementation en C/exo3/header.h
+

@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block titre %}food app{% endblock %}
+{% block contenu %}
+    <p>
+        Visualiser consommation : 
+    </p>
+    <a href="{% url 'enreg_consol' user.username %}"><input type="button" value="Enregistrer"></a>
+    <table class="visualise">
+        <tr>
+            <th>Jour de la semaine</th>
+            <th>Nourriture consommée</th>
+            <th>Problème de santé</th>
+            <th>Actions</th>
+        </tr>
+        {% for nutrition in nutritions %}
+        <tr>
+            <td>{{ nutrition.day_of_week }}</td>
+            <td>{{ nutrition.food.name }}</td>
+            <td>{{ nutrition.health_pb.name }}</td>
+            <td>
+                <p class="actions">
+                    <a href="{% url 'modif_conso' nutrition.slog %}"><input type="button" value="modif" class="modif"></a>
+                    <a href="{% url 'supp_conso' nutrition.slog %}"><input type="button" value="supp" class="supp"></a>
+                </p>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+{% endblock %}

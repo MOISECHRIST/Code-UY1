@@ -1,0 +1,50 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>kimo-ragout malgache.jpg</filename>
+	<path>/home/suzy/Images/kimo-ragout malgache.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>527</width>
+		<height>591</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>viande hachée</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>194</xmin>
+			<ymin>150</ymin>
+			<xmax>256</xmax>
+			<ymax>205</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>pomme de terre</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>125</xmin>
+			<ymin>216</ymin>
+			<xmax>195</xmax>
+			<ymax>249</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>tomate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>290</xmin>
+			<ymin>190</ymin>
+			<xmax>303</xmax>
+			<ymax>220</ymax>
+		</bndbox>
+	</object>
+</annotation>

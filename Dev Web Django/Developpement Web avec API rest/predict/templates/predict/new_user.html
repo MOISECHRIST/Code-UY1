@@ -1,0 +1,55 @@
+{% extends 'template_base.html'%}
+{% block title %}new user{% endblock %}
+{% block contenu %}
+<h1>Creer compte</h1>
+<div class="login_div">
+    <form method="post">
+        {% csrf_token %}
+        <table>
+            <tr>
+                <td>
+                    <label for="username">Nom d'utilisateur :</label>
+                    <input id="username" type="text" name="username" placeholder="Entrer le nom d'utilisateur">
+                </td>
+                <td>
+                    <label for="sex">Sexe :</label>
+                    <select id="sex" name="sex">
+                        <option value="">-----</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="password">Mot de passe :</label>
+                    <input id="password" type="password" name="password">
+                </td>
+                <td>
+                    <label for="date_of_birth">Date de naissance :</label>
+                    <input id="date_of_birth" type="date" name="date_of_birth">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="first_name">Nom :</label>
+                    <input id="first_name" type="text" name="first_name" placeholder="Entrer le nom">
+                </td>
+                <td>
+                    <label for="image">Photo de profil :</label>
+                    <input id="image" type="file" name="image">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="last_name">Prenom :</label>
+                    <input id="last_name" type="text" name="last_name" placeholder="Entrer le nom d'utilisateur">
+                </td>
+                <td>
+                    <button type="submit">S'inscrire</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+{% endblock %}

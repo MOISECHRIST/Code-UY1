@@ -1,0 +1,11 @@
+{% extends 'template_base.html' %}
+{% block titre %}food app{% endblock %}
+{% block contenu %}
+    <p>
+        Bienvennue dans votre agenda nutritionnel, Ici vous aurez toutes les informations relatives à votre consommation. 
+        Vous pouvez enregistrer une consommation courante et prédire votre consommation future.
+    </p>
+    <a href="{% url 'enreg_consol' user.username %}"><input type="button" value="Enregistrer"></a>
+    <a href="{% url 'visualise' user.username %}"><input type="button" value="Visualiser"></a>
+    <a href="{% url 'prediction' user.username %}"><input type="button" value="Predire"></a>
+{% endblock %}

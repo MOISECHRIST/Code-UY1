@@ -1,0 +1,31 @@
+Les listes chaînées, les piles et les files d'attente sont des collections linéaires ; un arbre est une
+collection non linéaire. Dans un arbre général, chaque nœud peut avoir deux liens ou plus vers
+d'autres nœuds. Bien que les arbres généraux aient de nombreuses applications en informatique
+(comme les répertoires), nous rencontrons davantage d'arbres binaires, c'est-à-dire des arbres
+comportant un maximum de deux sous-arbres. Un cas particulier d'arbre binaire est appelé arbre
+binaire de recherche dans lequel les valeurs des nœuds du sous-arbre de gauche sont inférieures à la
+valeur de la racine, et les valeurs du sous-arbre de droite sont supérieures à la valeur de la racine. La
+figure ci-dessous montre un arbre binaire de recherche.
+Le parcours d'un arbre binaire de recherche exige que chaque nœud de l'arbre soit traité une fois et
+une seule dans une séquence prédéterminée. Il existe trois types de traversées : préfixe, postfixe et
+infixe.
+Dans le parcours dans l'ordre, le traitement de la racine se situe entre les deux sous-arbres. En
+d'autres termes, nous devons d'abord parcourir tout le sous-arbre gauche, puis la racine, puis le
+sous-arbre droit. Cette règle doit être suivie dans chaque sous-arbre. Le parcours infixe de l’arbre de
+la figure ci-dessus nous donne la séquence suivante. La racine de l'arbre entier vient au milieu. Notez
+que dans le parcours infixe d'un arbre de recherche binaire, les valeurs sont traitées dans l'ordre
+croissant.
+Dans le parcours préfixe, le nœud racine est traité en premier, suivi de tous les nœuds du sous-arbre
+gauche parcourus en préfixe, puis de tous les nœuds du sous-arbre droit parcourus en préfixe. Le
+parcours préfixe de l’arbre de la figure ci-dessus nous donne la séquence suivante. Notez que la
+racine se trouve au début.
+Dans le parcours post-ordre, le traitement de la racine vient après le traitement de deux sous-
+arbres. En d'autres termes, nous devons d'abord parcourir le sous-arbre gauche, puis le sous-arbre
+droit et enfin la racine. Cette règle doit être suivie dans chaque sous-arbre. Le parcours post-ordre
+de l'arbre de la figure ci-dessus nous donne la séquence suivante. Notez que la racine de l'arbre
+entier se trouve à la fin.
+Nous avons discuté trois parcours pour un arbre binaire de recherche (ABR). Lorsqu'un ABR est
+implémenté correctement, les valeurs des données dans l’ABR sont triées, ce qui signifie que nous
+pouvons rechercher plus facilement l'arbre (d'où le nom arbre binaire de recherche). Les trois
+parcours nous aident à construire un ABR, à rechercher un ABR et à détruire un ABR. Cependant,
+pour chaque problème, nous devons utiliser le bon parcours.

@@ -1,0 +1,50 @@
+<annotation>
+	<folder>Cuisine madagascar</folder>
+	<filename>Tartare au tamarin et au poivre voatsiperifery.jpg</filename>
+	<path>C:\Users\Huawei\Downloads\Cuisine madagascar\Tartare au tamarin et au poivre voatsiperifery.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1178</width>
+		<height>1178</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Viande de cheval</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>322</xmin>
+			<ymin>304</ymin>
+			<xmax>1086</xmax>
+			<ymax>718</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Flites de pommes</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>107</xmin>
+			<ymin>575</ymin>
+			<xmax>672</xmax>
+			<ymax>989</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Flites de pommes</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>576</xmin>
+			<ymin>53</ymin>
+			<xmax>1141</xmax>
+			<ymax>441</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,40 @@
+/* RESET */
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input{margin:0; padding:0;}
+
+/* CORPS */
+body { background:  #023046; color: #fff;}
+#corps { width:1500px; margin:20px auto;}
+.supp, .modif{width: 70px; height: 30px;}
+.visualise td, .visualise th{text-align: center;font-size: 20px; padding-left: 60px;padding-right: 60px; background-color: #928e8e; width: 400px;}
+.actions {display: inline}
+.modif{padding-right: 50px;}
+.modif, .supp{padding: 0px;}
+.visualise, .visualise td, .visualise th{border: 2px solid rgb(242, 245, 247);border-collapse: collapse;}
+p{margin: 20px; text-align: justify; font-size: 25px;}
+input,select,button{font-size: large; background-size: 20px; margin: 10px; padding: 5px; font-style: italic; border-radius: 10px; background-color: #888; width: 475px;}
+marquee li {padding: 5px; margin: 5px; display: inline-block;border: 1px solid #f2f2f2; }
+marquee li img{height: 250px; width: 250px;display:block;}
+.valider, .CreateUser{width: 200px; margin-left: 100px; background-color: #888;}
+.login_div{margin: 10px 0px 10px 10px; background-color: #023046; padding: 10px;}
+.login{margin-left: 85px;}
+.actions{list-style:none; display: flex;}
+td #password{margin-left: 50px;}
+#first_name{margin-left: 130px;}
+#last_name{margin-left: 100px;}
+#sex{margin-left: 150px;}
+#image{margin-left: 45px;}
+button, .visualiser{margin-left: 0px;background-color: #888; width: 700px;}
+table a{text-decoration:none; color: #000000;}
+h1 a{text-decoration:none; color: #ffffff; margin-top: 10px;}
+/* LISTE */
+
+#list ul { list-style:none; margin-bottom: 40px;}
+#list ul li { font-family:Georgia,serif,Times; font-size:18px; }
+#list ul li a { display:block; width:300px; height:28px; background-color:#555; border-left:5px solid #888; border-right:5px solid #333; padding-left:10px;	text-decoration:none; color:#bfe1f1; }
+#list ul li a:hover {  border-right:5px solid #888;
+	-moz-transform:rotate(-5deg); 
+	-moz-box-shadow:10px 10px 20px #000000;
+	-webkit-transform:rotate(-5deg); 
+	-webkit-box-shadow:10px 10px 20px #000000;
+	transform:rotate(-5deg); 
+	box-shadow:10px 10px 20px #000000; }

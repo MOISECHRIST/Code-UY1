@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>60942</id>
+      <name>Cocotte de poulet en  sauce au petits pois</name>
+      <size>1</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2023-01-01 02:53:22.325962+00:00</created>
+      <updated>2023-01-01 02:56:14.668836+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>0</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>59363</id>
+          <start>0</start>
+          <stop>0</stop>
+          <url>https://app.cvat.ai/api/jobs/59363</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>tchaptche_itiel</username>
+        <email>tchaptche.rudy@facsciences-uy1.cm</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>rice</name>
+          <color>#616ffb</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>meet</name>
+          <color>#ba4d94</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>peas</name>
+          <color>#f00936</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+    </task>
+    <dumped>2023-01-01 02:56:29.223105+00:00</dumped>
+  </meta>
+  <image id="0" name="Cocotte de poulet en .jpg" width="600" height="600">
+    <box label="rice" occluded="0" source="manual" xtl="387.71" ytl="8.96" xbr="545.04" ybr="359.82" rotation="330.20" z_order="0">
+    </box>
+    <box label="meet" occluded="0" source="manual" xtl="128.39" ytl="159.29" xbr="369.40" ybr="358.90" rotation="329.80" z_order="0">
+    </box>
+    <box label="peas" occluded="0" source="manual" xtl="163.71" ytl="416.32" xbr="348.40" ybr="514.04" z_order="0">
+    </box>
+  </image>
+</annotations>

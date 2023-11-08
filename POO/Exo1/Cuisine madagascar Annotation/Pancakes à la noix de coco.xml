@@ -1,0 +1,38 @@
+<annotation>
+	<folder>Cuisine madagascar</folder>
+	<filename>Pancakes à la noix de coco.jpg</filename>
+	<path>C:\Users\Huawei\Downloads\Cuisine madagascar\Pancakes à la noix de coco.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1024</width>
+		<height>678</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Pancakes</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>93</xmin>
+			<ymin>12</ymin>
+			<xmax>952</xmax>
+			<ymax>663</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Noix de coco</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>245</xmin>
+			<ymin>22</ymin>
+			<xmax>814</xmax>
+			<ymax>337</ymax>
+		</bndbox>
+	</object>
+</annotation>

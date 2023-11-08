@@ -1,0 +1,54 @@
+{% extends 'template_base.html'%}
+{% block title %}new user{% endblock %}
+{% block contenu %}
+<img src="{{user.image.url}}" alt="photo de {{user.username}}" style="height: 250px; width: 250px; border-radius: 100px;">
+<br><h1>Modifier information</h1>
+<div class="login_div">
+    <form method="post">
+        {% csrf_token %}
+        <table>
+            <tr>
+                <td>
+                    <label for="first_name">Nom :</label>
+                    <input id="first_name" type="text" name="first_name" placeholder="Entrer le nom" value="{{user.first_name}}">
+                </td>
+               
+            </tr>
+            <tr>
+                <td>
+                    <label for="last_name">Prenom :</label>
+                    <input id="last_name" type="text" name="last_name" placeholder="Entrer le nom d'utilisateur" value="{{user.last_name}}">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="date_of_birth">Date de naissance :</label>
+                    <input id="date_of_birth" type="date" name="date_of_birth">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="sex">Sexe :</label>
+                    <select id="sex" name="sex">
+                        <option value="">-----</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                 <td>
+                    <label for="image">Photo de profil :</label>
+                    <input id="image" type="file" name="image">
+                </td>
+            
+            <tr>
+                <td>
+                    <button type="submit">Enregistrer</button>
+                    <a href="{% url 'predict' user.username %}"><input type="button" value="Annuler"></a>
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+{% endblock %}

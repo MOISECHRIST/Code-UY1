@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>60917</id>
+      <name>Ravitoto</name>
+      <size>1</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2023-01-01 00:35:49.979984+00:00</created>
+      <updated>2023-01-01 00:38:51.383024+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>0</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>59338</id>
+          <start>0</start>
+          <stop>0</stop>
+          <url>https://app.cvat.ai/api/jobs/59338</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>tchaptche_itiel</username>
+        <email>tchaptche.rudy@facsciences-uy1.cm</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>rice</name>
+          <color>#616ffb</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>meet</name>
+          <color>#ba4d94</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>tomato</name>
+          <color>#102080</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>soupe</name>
+          <color>#86bb2d</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+    </task>
+    <dumped>2023-01-01 01:04:22.524186+00:00</dumped>
+  </meta>
+  <image id="0" name="Ravitoto.jpg" width="650" height="488">
+    <box label="rice" occluded="0" source="manual" xtl="137.06" ytl="2.42" xbr="359.60" ybr="203.50" z_order="0">
+    </box>
+    <box label="meet" occluded="0" source="manual" xtl="376.30" ytl="128.80" xbr="589.29" ybr="299.67" z_order="0">
+    </box>
+    <box label="tomato" occluded="0" source="manual" xtl="198.25" ytl="297.28" xbr="317.47" ybr="399.81" z_order="0">
+    </box>
+    <box label="soupe" occluded="0" source="manual" xtl="45.65" ytl="181.25" xbr="133.08" ybr="347.36" z_order="0">
+    </box>
+  </image>
+</annotations>

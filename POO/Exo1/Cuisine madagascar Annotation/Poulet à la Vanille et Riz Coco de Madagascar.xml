@@ -1,0 +1,50 @@
+<annotation>
+	<folder>Cuisine madagascar</folder>
+	<filename>Poulet à la Vanille et Riz Coco de Madagascar.jpg</filename>
+	<path>C:\Users\Huawei\Downloads\Cuisine madagascar\Poulet à la Vanille et Riz Coco de Madagascar.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>650</width>
+		<height>488</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Poulet à la Vanille</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>113</xmin>
+			<ymin>125</ymin>
+			<xmax>444</xmax>
+			<ymax>348</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Riz Coco</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>180</ymin>
+			<xmax>650</xmax>
+			<ymax>411</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Epices</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>423</xmin>
+			<ymin>137</ymin>
+			<xmax>503</xmax>
+			<ymax>382</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,10 @@
+angle,Espace entre deux lignes ou deux plans qui se croisent ; inclinaison d’une ligne par rapport a une autre ; se mesure en degres, en grades ou en radians.
+armoire,Meuble haut ferme par une ou deux portes et destine au rangement du linge, des vêtements ou d’autres objets.
+banc,Long siege permettant d’accueillir plus d’une personne.
+bureau,Meuble a tiroirs et a tablettes où l’on enferme des papiers et sur lequel on ecrit.
+cabinet,Petite pièce retiree.
+carreau,Objet plat ou ouverture au contour approximativement carre.
+chaise,Siege avec dossier, sans accoudoirs.
+classe,Groupe de personnes et de familles ayant la même position dans la societe ; classe sociale.
+cle,Instrument de metal que l’on introduit dans une serrure pour ouvrir ou fermer un accès.
+coin,Pièce de fer ou de bois ou de toute autre matière dure, de forme prismatique, dont on se sert principalement pour fendre du bois, des pierres, en la faisant entrer de force avec un maillet ou un marteau.

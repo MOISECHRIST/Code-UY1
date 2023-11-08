@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>Lomo-au-piment-dEspelette.jpg</filename>
+	<path>/home/suzy/Images/Lomo-au-piment-dEspelette.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>598</width>
+		<height>374</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>filet mignon</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>172</xmin>
+			<ymin>93</ymin>
+			<xmax>401</xmax>
+			<ymax>281</ymax>
+		</bndbox>
+	</object>
+</annotation>

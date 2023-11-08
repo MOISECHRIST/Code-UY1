@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1650802385 source:/home/meka/Documents/TD Programmation C S2/PROJET 1 PRESENTATION/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
